@@ -1,0 +1,68 @@
+.app-container{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    background-color: bisque;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+label{
+    font-size: 1.5rem;
+}
+
+body{
+    font-family: sans-serif;
+}
+ul{
+    margin: 10px 10px;
+    padding: 0px;
+}
+button{
+    border: none;
+    background-color: bisque;
+    font-size: 1.2rem;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+
+.label-container{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+.input{
+    border: none;
+    border-bottom: solid black;
+    width: 240px;
+    background-color: bisque;
+}
+
+.input:focus{
+    border: none;
+    border-bottom: solid black;
+    outline: none;
+}
+
+.item-container{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+.remove-button:hover{
+    cursor: pointer;
+}
